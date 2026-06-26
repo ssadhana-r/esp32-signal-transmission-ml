@@ -47,8 +47,6 @@ ESP32-ML-Beam-Selection/
 │   └── transmitter.ino
 │── receiver/
 │   └── receiver.ino
-│── model/
-│   └── model_file (if applicable)
 │── docs/
 │   └── project_report.pdf
 │── README.md
