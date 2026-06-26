@@ -34,7 +34,6 @@ Machine Learning Details
 Components Used
 
 * ESP32 Microcontroller
-* Antenna / Transmission Setup
 * Power Supply
 * Arduino IDE (Embedded C)
 * Basic ML Model
@@ -47,8 +46,6 @@ ESP32-ML-Beam-Selection/
 │   └── transmitter.ino
 │── receiver/
 │   └── receiver.ino
-│── docs/
-│   └── project_report.pdf
 │── README.md
 ```
 
