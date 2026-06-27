@@ -46,8 +46,10 @@ Project Structure
 ```
 ESP32-ML-Beam-Selection/
 │   └── dashboard.ino
-│   └── transmitter.ino
-│   └── receiver.ino
+│   └── diagram.ino
+│   └── rx1.ino
+│   └── rx2.ino
+│   └── tx.ino
 │── README.md
 ```
 
