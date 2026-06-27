@@ -20,9 +20,11 @@ Working Principle
 
 1. The ESP32 transmitter sends signals across multiple possible directions
 2. The receiver collects signal parameters such as RSSI
-3. The ML model processes these inputs
-4. The system selects the best transmission beam dynamically
-5. Communication continues using the optimized path
+3. The LED of the receiver which has the higher value of RSSI is turned on
+4. The ML model processes these inputs
+5. The values are also displayed in a dashboard
+6. The system identifies the best transmission beam
+7. Communication continues using the optimized path
 
 
 Machine Learning Details
@@ -34,6 +36,7 @@ Machine Learning Details
 Components Used
 
 * ESP32 Microcontroller
+* LED
 * Power Supply
 * Arduino IDE (Embedded C)
 * Basic ML Model
@@ -42,9 +45,8 @@ Components Used
 Project Structure
 ```
 ESP32-ML-Beam-Selection/
-│── transmitter/
+│   └── dashboard.ino
 │   └── transmitter.ino
-│── receiver/
 │   └── receiver.ino
 │── README.md
 ```
