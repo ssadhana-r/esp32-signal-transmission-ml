@@ -45,8 +45,8 @@ Components Used
 Project Structure
 ```
 ESP32-ML-Beam-Selection/
-│   └── dashboard.ino
-│   └── diagram.ino
+│   └── dashboard
+│   └── diagram
 │   └── rx1.ino
 │   └── rx2.ino
 │   └── tx.ino
